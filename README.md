@@ -1,1 +1,1 @@
-"# ThinkingHats" 
+# Thinking Hats
