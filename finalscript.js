@@ -2,15 +2,15 @@
 
 const questions = [
     {
-        question: "Q1/15: You're taking the bus on your way back home. It's been a loooong day, what are you thinking about?",
+        question: "Q1/15: You stumbled upon a torn map leading to the legendary Wizard of Colors. What's your move?",
         image: "images/Q1.gif",
         answers: {
             Red: {
-                text: "Red ",
+                text: "Search frantically for the missing piece. ",
                 scores: { White: 0, Red:1, Black:0, Blue:0, Yellow:0, Green:0 },
             },
             Blue: {
-                text: "Blue",
+                text: " Craft a clever plan without the missing piece.",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0  },
             },
         },
