@@ -16,15 +16,15 @@ const questions = [
         },
     },
     {
-        question: "Q2/15: You look outside the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
+        question: "Q2/15:  Suddenly, you looked ahead and spotted a colourful boat along a rainbow river.",
         image: "images/Q2.gif",
         answers: {
             Blue: {
-                text: "Blue",
+                text: "Imagine an epic boat adventure and gather supplies.",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0 },
             },
             White: {
-                text: "White",
+                text: " Inspect the boat's construction and durability for the journey.",
                 scores: { White: 1, Red:0, Black:0, Blue:0, Yellow:0, Green:0  },
             },
         },
