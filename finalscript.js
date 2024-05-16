@@ -3,7 +3,7 @@
 const questions = [
     {
         question: "Q1/15: You stumbled upon a torn map leading to the legendary Wizard of Colors. What's your move?",
-        image: "images/Q1.gif",
+        image: "map-explore.gif",
         answers: {
             Red: {
                 text: "Search frantically for the missing piece. ",
