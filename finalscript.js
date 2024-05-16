@@ -2,29 +2,29 @@
 
 const questions = [
     {
-        question: "Q1/15: You're taking the bus on your way back home. It's been a loooong day, what are you thinking about?",
+        question: "Q1/15: You stumbled upon a torn map leading to the legendary Wizard of Colors. What's your move?",
         image: "images/Q1.gif",
         answers: {
             Red: {
-                text: "Red ",
+                text: "Search frantically for the missing piece. ",
                 scores: { White: 0, Red:1, Black:0, Blue:0, Yellow:0, Green:0 },
             },
             Blue: {
-                text: "Blue",
+                text: " Craft a clever plan without the missing piece.",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0  },
             },
         },
     },
     {
-        question: "Q2/15: You look outside the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
+        question: "Q2/15:  Suddenly, you looked ahead and spotted a colourful boat along a rainbow river.",
         image: "images/Q2.gif",
         answers: {
             Blue: {
-                text: "Blue",
+                text: "Imagine an epic boat adventure and gather supplies.",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0 },
             },
             White: {
-                text: "White",
+                text: " Inspect the boat's construction and durability for the journey.",
                 scores: { White: 1, Red:0, Black:0, Blue:0, Yellow:0, Green:0  },
             },
         },
