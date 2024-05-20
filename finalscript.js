@@ -417,7 +417,7 @@ function showResult() {
 
     //each pair
     //const result = pairs.map(pair => topLetters[pair]).join('');
-
+//get the top 2 number
     const result = Object.entries(userAnswers).sort((a,b)=>b[1]-a[1]);
     const resultStr = result[0][0]+" & "+result[1][0];
     const hatImage = resultOptions[resultStr];
