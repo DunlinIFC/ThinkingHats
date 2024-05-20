@@ -30,122 +30,121 @@ const questions = [
         },
     },
     {
-        question: "Q3/15: Before you can do anything, the bus stops and everything around you floats up!",
+        question: "Q3/15: You decided to take the boat and it sailed into a mysterious cave. You thought to yourself:",
         image: "images/Q3.gif",
         answers: {
             Yellow: {
-                text: "Yellow",
+                text: "Wow, what a majestic cave. I wonder what I can discover here.",
                 scores: { White: 0, Red:0, Black:0, Blue:0, Yellow:1, Green:0 },
             },
             Green: {
-                text: "Green",
+                text: "This looks like a safe space for me to hide and take shelter.",
                 scores: { White: 0, Red:0, Black:0, Blue:0, Yellow:0, Green:1 },
             },
         },
     },
     {
-        question: "Q4/15: Amidst the surprise, your eyes catch something drifting past the window.",
+        question: "Q4/15:Amidst hunger, you discover a mushroom in the cave. Your options window.",
         image: "images/Q4.gif",
         answers: {
             Red: {
-                text: "Red",
+                text: "This mushroom feels like a game over. I'll stick with hunger for now.",
                 scores: { White: 0, Red:1, Black:0, Blue:0, Yellow:0, Green:0 },
             },
             Black: {
-                text: "White",
+                text: "Eating this could turn me into a giant mushroom. No thanks!",
                 scores: { White: 0, Red:0, Black:1, Blue:0, Yellow:0, Green:0 },
             },
         },
     },
     {
-        question: "Q5/15: 'Welcome Aboard!' a small robot appears and annouces, 'We will reach our destination in 5 months 6 days and 2 hours!'",
+        question: "Q5/15: You walked along the cave and spotted some graffiti on the walls. You wonder:",
         image: "images/Q5.gif",
         answers: {
             Blue: {
-                text: "Blue",
+                text: "Graffiti, a mystery to solve. Let's crack this code.",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0 },
             },
             Yellow: {
-                text: "Yellow",
+                text: "A clue! Getting closer to the Wizard Hagrid.",
                 scores: {White: 0, Red:0, Black:0, Blue:0, Yellow:1, Green:0 },
             },
         },
     },
     {
-        question: "Q6/15: The robot just points to the back of the bus which now looks more like inside of a spaceship! What do you want to see first?",
+        question: "Q6/15:Suddenly, you noticed a rabbit outside the cave waving at you. It gestured for you to follow it. You:",
         image: "images/Q6.gif",
         answers: {
             Black: {
-                text: "Black",
+                text: "Pause, suspicious of the rabbit's secret agenda.",
                 scores: { White: 0, Red:0, Black:1, Blue:0, Yellow:0, Green:0 },
             },
             White: {
-                text: "White",
+                text: "Watch the rabbit's behavior before making a decision",
                 scores: { White:1, Red:0, Black:0, Blue:0, Yellow:0, Green:0 },
             },
         },
     },
     {
-        question: "Q7/15: On the way back to your seat, you are surrounded by cats! 'Unauthorized passenger detected, CAPTURE CAPTURE!'",
+        question: "Q7/15:If you want food, go to the Enchanted Forest!" the rabbit shouted and ran off. You decided to head to the Enchanted Forest, where you found yourselves surrounded by fruit trees. You:",
         image: "images/Q7.gif",
         answers: {
             Red: {
-                text: "Red",
+                text: "These fruits look delicious and safe to eat.",
                 scores: { White: 0, Red:1, Black:0, Blue:0, Yellow:0, Green:0}
             },
             White: {
-                text: "White",
+                text: "If the birds are enjoying them, it's safe for me too.",
                 scores: { White:1, Red:0, Black:0, Blue:0, Yellow:0, Green:0 },
             },
         },
     },
     {
-        question: "Q8/15: Suddenly, the robot glides in, it whispers something to the cats that makes them stop.",
+        question: "Q8/15: After eating the fruits, you were transported instantly to Mount Chroma. You met a little paintbrush who said 'Are you looking for Wizard Hagrid? I can bring you there.' You:",
         image: "images/Q8.gif",
         answers: {
             Black: {
-                text: "Black",
+                text: "I'm incredibly lucky to have a guide like you!",
                 scores: { White: 0, Red:0, Black:1, Blue:0, Yellow:0, Green:0 },
             },
             Yellow: {
-                text: "Yellow",
+                text: "Can I trust him? What if this is a colorful trap?",
                 scores: { White: 0, Red:0, Black:0, Blue:0, Yellow:1, Green:0 },
             },
         },
     },
     {
-        question: "Q9/15: The robot transforms into a giant vacuum cleaner, the cats use it to point at you!",
+        question: "Q9/15:You followed the little paintbrush to a cylindrical house. When the door opens, you were greeted by a group of colourful little paintbrushes You thought: you!",
         image: "images/Q9.gif",
         answers: {
             Blue: {
-                text: "Blue",
+                text: "I should first ask them who they are before I share about my plans",
                 scores: { White: 0, Red:0, Black:0, Blue:1, Yellow:0, Green:0 },
             },
             Green: {
-                text: "Green",
+                text: "More friends who can guide me to Wizard Hagrid!",
                 scores: { White: 0, Red:0, Black:0, Blue:0, Yellow:0, Green:1 },
             },
         },
     },
     {
-        question: "Q10/15: You run past the gift shop. Looks like you got rid of them. It wouldn't hurt to get some souvenirs, right?",
+        question: "Q10/15: I challenge you to a game of ‘Drawasaurus’. If you can draw faster than us, we’ll show you the way to Wizard Hagrid. If you are slower, you’ll give up your colour to us.’ Said the paintbrushes.",
         image: "images/Q10.gif",
         answers: {
             Red: {
-                text: "Red",
+                text: "I have a hunch that I might be able to draw faster than these little paintbrushes. ",
                 scores: { White: 0, Red:1, Black:0, Blue:0, Yellow:0, Green:0 },
             },
             Yellow: {
-                text: "Yellow",
+                text: "Game on! One crayon offers better control and precision than a group of paintbrushes anyway. ",
                 scores: { White: 0, Red:0, Black:0, Blue:0, Yellow:1, Green:0 },
             },
         },
 
     },
     {
-        question: "Q11/15: The giant vacuum cleaner suddenly emerges in front of you! You're sucked into its vortex!!!",
-        image: "images/Q11.gif",
-        answers: {
+        question: "Q11/15:You drew as frantically as you could, determined to win. You notice that the paintbrushes couldn’t keep up wiht you.",
+        answers:
             White: {
                 text: "White",
                 scores: {White:1, Red:0, Black:0, Blue:0, Yellow:0, Green:0 },
